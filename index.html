@@ -1,0 +1,333 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheepchick Kebab | Traditional Persian BBQ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Add Google Reviews API Script -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_PLACES_API_KEY&amp;libraries=places"></script>
+
+    <link rel="shortcut icon" href="images/sheepchick-logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/sheepchick-logo.png" alt="Sheepchick Kebab Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#order">Order Online</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-controls">
+                <div class="dark-mode-toggle">
+                    <button id="dark-mode-btn" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                </div>
+                <div class="language-switch">
+                    <a href="index.html" class="active">EN</a>
+                    <a href="locale/el/index.html">ΕΛ</a>
+                </div>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content animate__animated animate__fadeIn">
+                <h1>Authentic Persian BBQ</h1>
+                <p>A delicious blend of tradition and taste in every bite</p>
+                <a href="#menu" class="btn">View Menu</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <a href="#menu">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            
+            <div class="menu-categories" id="menu-categories"><button class="category-btn active" data-category="all">All</button>
+<button class="category-btn" data-category="kebabs">Kebabs</button>
+<button class="category-btn" data-category="wraps">Wraps</button>
+<button class="category-btn" data-category="sides">Sides</button>
+<button class="category-btn" data-category="drinks">Drinks</button>
+</div>
+            
+            <div class="menu-items" id="menu-items">
+<!-- Menu Item 1 -->
+<div class="menu-item reveal" data-category="kebabs">
+    <div class="menu-img">
+        <img src="images/placeholder-food.jpg" alt="Mixed Meat Kebab">
+    </div>
+    <div class="menu-info">
+        <h3>Mixed Meat Kebab</h3>
+        <p>Our signature dish with lamb and chicken</p>
+        <span class="price">€12.50</span>
+    </div>
+</div>
+
+<!-- Menu Item 2 -->
+<div class="menu-item reveal" data-category="kebabs">
+    <div class="menu-img">
+        <img src="images/placeholder-food.jpg" alt="Lamb Kebab">
+    </div>
+    <div class="menu-info">
+        <h3>Lamb Kebab</h3>
+        <p>Premium lamb meat, marinated and grilled to perfection</p>
+        <span class="price">€13.90</span>
+    </div>
+</div>
+
+<!-- Menu Item 3 -->
+<div class="menu-item reveal" data-category="wraps">
+    <div class="menu-img">
+        <img src="images/placeholder-food.jpg" alt="Chicken Wrap">
+    </div>
+    <div class="menu-info">
+        <h3>Chicken Wrap</h3>
+        <p>Grilled chicken with vegetables and our special sauce</p>
+        <span class="price">€8.90</span>
+    </div>
+</div>
+
+<!-- Menu Item 4 -->
+<div class="menu-item reveal" data-category="sides">
+    <div class="menu-img">
+        <img src="images/placeholder-food.jpg" alt="Greek Salad">
+    </div>
+    <div class="menu-info">
+        <h3>Greek Salad</h3>
+        <p>Fresh vegetables, feta cheese, olives with olive oil</p>
+        <span class="price">€7.50</span>
+    </div>
+</div>
+
+<!-- Menu Item 5 -->
+<div class="menu-item reveal" data-category="drinks">
+    <div class="menu-img">
+        <img src="images/placeholder-food.jpg" alt="Greek Wine">
+    </div>
+    <div class="menu-info">
+        <h3>Greek Wine</h3>
+        <p>Selected local wine, perfect companion for our kebabs</p>
+        <span class="price">€5.50</span>
+    </div>
+</div>
+
+<!-- Menu Item 6 -->
+<div class="menu-item reveal" data-category="drinks">
+    <div class="menu-img">
+        <img src="images/placeholder-food.jpg" alt="Fresh Lemonade">
+    </div>
+    <div class="menu-info">
+        <h3>Fresh Lemonade</h3>
+        <p>Homemade lemonade with mint and honey</p>
+        <span class="price">€3.50</span>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- Order Online Section -->
+<section id="order" class="order">
+    <div class="container">
+        <div class="order-platforms reveal">
+            <a href="#" class="platform-btn wolt" target="_blank">
+                <img src="images/wolt-logo.png" alt="Order on Wolt" class="platform-logo">
+            </a>
+            <a href="#" class="platform-btn efood" target="_blank">
+                <img src="images/efood-logo.png" alt="Order on eFood" class="platform-logo">
+            </a>
+
+        </div>
+    
+    </div>
+</section>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image reveal">
+                    <img src="images/placeholder-shop.gif" alt="Sheepchick Kebab Shop" loading="lazy">
+                </div>
+                <div class="about-text reveal">
+                    <h2 class="section-title">About Sheepchick Kebab</h2>
+                    <p>Founded in 2020, Sheepchick Kebab brings together the best of Persian and Middle Eastern cuisine. Our unique name represents our specialty in both lamb and chicken kebabs, prepared with traditional recipes passed down through generations.</p>
+                    <p>We source only the finest local ingredients to ensure authentic flavors and support local farmers. Every dish is prepared fresh daily in our kitchen.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Fresh Ingredients</h3>
+                            <p>We use only the freshest ingredients sourced locally.</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-fire"></i>
+                            <h3>Traditional Methods</h3>
+                            <p>Authentic cooking techniques for the best flavors.</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h3>Made with Love</h3>
+                            <p>Every dish is prepared with passion and care.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <p>"The best kebab I've ever had! Authentic flavors that remind me of my trip to Iran."</p>
+                        <div class="testimonial-author">
+                            <span class="name">John D.</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Amazing food and friendly service. The Mixed Meat Kebab is a must-try!"</p>
+                        <div class="testimonial-author">
+                            <span class="name">Maria S.</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Such a cozy place with delicious food. I keep coming back for their wraps and salads!"</p>
+                        <div class="testimonial-author">
+                            <span class="name">Alex M.</span>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    
+        <section class="google-reviews">        <div class="container">            <div class="trustpilot-style-badge reveal">                <div class="rating-label">Excellent</div>                <div class="stars">                    <i class="fas fa-star"></i>                    <i class="fas fa-star"></i>                    <i class="fas fa-star"></i>                    <i class="fas fa-star"></i>                    <i class="fas fa-star-half-alt"></i>                </div>                <div class="review-info">                    <span class="review-count">128 reviews on</span>                    <img src="images/google-logo.png" alt="Google" class="platform-logo">                </div>            </div>            <div class="reviews-link-container">                <a href="https://g.co/kgs/qmU8mn1" target="_blank" class="view-reviews-link">See all reviews <i class="fas fa-external-link-alt"></i></a>            </div>        </div>    </section>
+
+    
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info reveal">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Acropolis Avenue, Athens, Greece</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+30 210 1234567</p>
+                        </div>
+                    </div>
+    
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Monday - Sunday: 11:00 AM - 11:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/sheepchick-logo.png" alt="Sheepchick Kebab Logo">
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+                </div>
+                
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#order">Order Online</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="locale/el/index.html">Greek</a></li>
+                    </ul>
+                </div>
+                
+                <div class="copyright">
+                    <p>© 2023 Sheepchick Kebab. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+ </body></html>

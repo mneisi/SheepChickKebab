@@ -1,0 +1,125 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": {
+        "en": "All",
+        "el": "Όλα"
+      }
+    },
+    {
+      "id": "kebabs",
+      "name": {
+        "en": "Kebabs",
+        "el": "Κεμπάπ"
+      }
+    },
+    {
+      "id": "wraps",
+      "name": {
+        "en": "Wraps",
+        "el": "Τυλιχτά"
+      }
+    },
+    {
+      "id": "sides",
+      "name": {
+        "en": "Sides",
+        "el": "Συνοδευτικά"
+      }
+    },
+    {
+      "id": "drinks",
+      "name": {
+        "en": "Drinks",
+        "el": "Ποτά"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "mixed-meat-kebab",
+      "category": "kebabs",
+      "image": "placeholder-kebab.jpg",
+      "price": "€12.50",
+      "name": {
+        "en": "Mixed Meat Kebab",
+        "el": "Μικτό Κεμπάπ Κρέατος"
+      },
+      "description": {
+        "en": "Our signature dish with lamb and chicken, served with rice and salad",
+        "el": "Το χαρακτηριστικό μας πιάτο με αρνί και κοτόπουλο, σερβίρεται με ρύζι και σαλάτα"
+      }
+    },
+    {
+      "id": "lamb-kebab",
+      "category": "kebabs",
+      "image": "placeholder-kebab.jpg",
+      "price": "€13.90",
+      "name": {
+        "en": "Lamb Kebab",
+        "el": "Κεμπάπ Αρνίσιο"
+      },
+      "description": {
+        "en": "Premium lamb meat, marinated and grilled to perfection",
+        "el": "Εκλεκτό αρνίσιο κρέας, μαριναρισμένο και ψημένο στην τελειότητα"
+      }
+    },
+    {
+      "id": "chicken-wrap",
+      "category": "wraps",
+      "image": "placeholder-wrap.jpg",
+      "price": "€8.90",
+      "name": {
+        "en": "Chicken Wrap",
+        "el": "Τυλιχτό Κοτόπουλο"
+      },
+      "description": {
+        "en": "Grilled chicken with veggies and our special sauce",
+        "el": "Ψητό κοτόπουλο με λαχανικά και την ειδική μας σάλτσα"
+      }
+    },
+    {
+      "id": "greek-salad",
+      "category": "sides",
+      "image": "placeholder-side.jpg",
+      "price": "€7.50",
+      "name": {
+        "en": "Greek Salad",
+        "el": "Χωριάτικη Σαλάτα"
+      },
+      "description": {
+        "en": "Fresh vegetables, feta cheese, olives with olive oil",
+        "el": "Φρέσκα λαχανικά, φέτα, ελιές με ελαιόλαδο"
+      }
+    },
+    {
+      "id": "greek-wine",
+      "category": "drinks",
+      "image": "placeholder-drink.jpg",
+      "price": "€5.50",
+      "name": {
+        "en": "Greek Wine",
+        "el": "Ελληνικό Κρασί"
+      },
+      "description": {
+        "en": "Selected local wine, perfect pairing with our kebabs",
+        "el": "Επιλεγμένο τοπικό κρασί, ιδανικό συνοδευτικό για τα κεμπάπ μας"
+      }
+    },
+    {
+      "id": "fresh-lemonade",
+      "category": "drinks",
+      "image": "placeholder-drink.jpg",
+      "price": "€3.50",
+      "name": {
+        "en": "Fresh Lemonade",
+        "el": "Φρέσκια Λεμονάδα"
+      },
+      "description": {
+        "en": "Homemade lemonade with mint and honey",
+        "el": "Σπιτική λεμονάδα με μέντα και μέλι"
+      }
+    }
+  ]
+} 
