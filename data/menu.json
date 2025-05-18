@@ -120,6 +120,62 @@
         "en": "Homemade lemonade with mint and honey",
         "el": "Σπιτική λεμονάδα με μέντα και μέλι"
       }
+    },
+    {
+      "id": "beef-kebab",
+      "category": "kebabs",
+      "image": "placeholder-kebab.jpg",
+      "price": "€14.50",
+      "name": { "en": "Beef Kebab", "el": "Κεμπάπ Μοσχαρίσιο" },
+      "description": { "en": "Juicy beef kebab with spices.", "el": "Ζουμερό μοσχαρίσιο κεμπάπ με μπαχαρικά." }
+    },
+    {
+      "id": "veggie-kebab",
+      "category": "kebabs",
+      "image": "placeholder-kebab.jpg",
+      "price": "€11.00",
+      "name": { "en": "Veggie Kebab", "el": "Κεμπάπ Λαχανικών" },
+      "description": { "en": "Grilled vegetables on skewers.", "el": "Ψητά λαχανικά σε καλαμάκι." }
+    },
+    {
+      "id": "falafel-wrap",
+      "category": "wraps",
+      "image": "placeholder-wrap.jpg",
+      "price": "€7.90",
+      "name": { "en": "Falafel Wrap", "el": "Τυλιχτό Φαλάφελ" },
+      "description": { "en": "Falafel with fresh veggies and tahini sauce.", "el": "Φαλάφελ με φρέσκα λαχανικά και σάλτσα ταχίνι." }
+    },
+    {
+      "id": "halloumi-wrap",
+      "category": "wraps",
+      "image": "placeholder-wrap.jpg",
+      "price": "€8.50",
+      "name": { "en": "Halloumi Wrap", "el": "Τυλιχτό Χαλούμι" },
+      "description": { "en": "Grilled halloumi cheese with salad.", "el": "Ψητό χαλούμι με σαλάτα." }
+    },
+    {
+      "id": "fries",
+      "category": "sides",
+      "image": "placeholder-side.jpg",
+      "price": "€3.00",
+      "name": { "en": "Fries", "el": "Πατάτες Τηγανιτές" },
+      "description": { "en": "Crispy golden fries.", "el": "Τραγανές χρυσαφένιες πατάτες." }
+    },
+    {
+      "id": "tzatziki",
+      "category": "sides",
+      "image": "placeholder-side.jpg",
+      "price": "€2.50",
+      "name": { "en": "Tzatziki", "el": "Τζατζίκι" },
+      "description": { "en": "Classic Greek yogurt dip.", "el": "Κλασικό ελληνικό ντιπ γιαουρτιού." }
+    },
+    {
+      "id": "soda",
+      "category": "drinks",
+      "image": "placeholder-drink.jpg",
+      "price": "€2.00",
+      "name": { "en": "Soda", "el": "Αναψυκτικό" },
+      "description": { "en": "Refreshing soft drink.", "el": "Δροσιστικό αναψυκτικό." }
     }
   ]
 } 

@@ -21,7 +21,6 @@
                     <li><a href="#home" class="active">Αρχική</a></li>
                     <li><a href="#menu">Μενού</a></li>
                     <li><a href="#about">Σχετικά με εμάς</a></li>
-                    <li><a href="#order">Παραγγελία Online</a></li>
                     <li><a href="#contact">Επικοινωνία</a></li>
                 </ul>
             </nav>
@@ -64,87 +63,8 @@
     <section id="menu" class="menu">
         <div class="container">
             <h2 class="section-title">Το Μενού μας</h2>
-            
-            <div class="menu-categories"><button class="category-btn active" data-category="all">Όλα</button>
-<button class="category-btn" data-category="kebabs">Κεμπάπ</button>
-<button class="category-btn" data-category="wraps">Τυλιχτά</button>
-<button class="category-btn" data-category="sides">Συνοδευτικά</button>
-<button class="category-btn" data-category="drinks">Ποτά</button>
-</div>
-            
-            <div class="menu-items">
-<!-- Menu Item 1 -->
-<div class="menu-item reveal" data-category="kebabs">
-    <div class="menu-img">
-        <img src="../../images/placeholder-food.jpg" alt="Μικτό Κεμπάπ Κρέατος">
-    </div>
-    <div class="menu-info">
-        <h3>Μικτό Κεμπάπ Κρέατος</h3>
-        <p>Το χαρακτηριστικό μας πιάτο με αρνί και κοτόπουλο</p>
-        <span class="price">€12.50</span>
-    </div>
-</div>
-
-<!-- Menu Item 2 -->
-<div class="menu-item reveal" data-category="kebabs">
-    <div class="menu-img">
-        <img src="../../images/placeholder-food.jpg" alt="Κεμπάπ Αρνίσιο">
-    </div>
-    <div class="menu-info">
-        <h3>Κεμπάπ Αρνίσιο</h3>
-        <p>Εκλεκτό αρνίσιο κρέας, μαριναρισμένο και ψημένο στην τελειότητα</p>
-        <span class="price">€13.90</span>
-    </div>
-</div>
-
-<!-- Menu Item 3 -->
-<div class="menu-item reveal" data-category="wraps">
-    <div class="menu-img">
-        <img src="../../images/placeholder-food.jpg" alt="Τυλιχτό Κοτόπουλο">
-    </div>
-    <div class="menu-info">
-        <h3>Τυλιχτό Κοτόπουλο</h3>
-        <p>Ψητό κοτόπουλο με λαχανικά και την ειδική μας σάλτσα</p>
-        <span class="price">€8.90</span>
-    </div>
-</div>
-
-<!-- Menu Item 4 -->
-<div class="menu-item reveal" data-category="sides">
-    <div class="menu-img">
-        <img src="../../images/placeholder-food.jpg" alt="Χωριάτικη Σαλάτα">
-    </div>
-    <div class="menu-info">
-        <h3>Χωριάτικη Σαλάτα</h3>
-        <p>Φρέσκα λαχανικά, φέτα, ελιές με ελαιόλαδο</p>
-        <span class="price">€7.50</span>
-    </div>
-</div>
-
-<!-- Menu Item 5 -->
-<div class="menu-item reveal" data-category="drinks">
-    <div class="menu-img">
-        <img src="../../images/placeholder-food.jpg" alt="Κρασί">
-    </div>
-    <div class="menu-info">
-        <h3>Επιλεγμένο Κρασί</h3>
-        <p>Εκλεκτό κρασί, ιδανικό συνοδευτικό για τα κεμπάπ μας</p>
-        <span class="price">€5.50</span>
-    </div>
-</div>
-
-<!-- Menu Item 6 -->
-<div class="menu-item reveal" data-category="drinks">
-    <div class="menu-img">
-        <img src="../../images/placeholder-food.jpg" alt="Φρέσκια Λεμονάδα">
-    </div>
-    <div class="menu-info">
-        <h3>Φρέσκια Λεμονάδα</h3>
-        <p>Σπιτική λεμονάδα με μέντα και μέλι</p>
-        <span class="price">€3.50</span>
-    </div>
-</div>
-</div>
+            <div class="menu-categories" id="menu-categories"></div>
+            <div class="menu-items" id="menu-items"></div>
         </div>
     </section>
 
@@ -153,10 +73,16 @@
         <div class="container">
             <div class="order-platforms reveal">
                 <a href="#" class="platform-btn wolt" target="_blank">
-                    <img src="../../images/wolt-logo.png" alt="Παραγγελία στο Wolt" class="platform-logo">
+                    <div class="platform-content">
+                        <img src="../../images/wolt-logo.png" alt="Παραγγελία στο Wolt" class="platform-logo">
+                        <span class="platform-label">Παραγγελία στο Wolt</span>
+                    </div>
                 </a>
                 <a href="#" class="platform-btn efood" target="_blank">
-                    <img src="../../images/efood-logo.png" alt="Παραγγελία στο eFood" class="platform-logo">
+                    <div class="platform-content">
+                        <img src="../../images/efood-logo.png" alt="Παραγγελία στο eFood" class="platform-logo">
+                        <span class="platform-label">Παραγγελία στο eFood</span>
+                    </div>
                 </a>
             </div>
         </div>
@@ -268,7 +194,7 @@
                     <i class="fas fa-star-half-alt"></i>
                 </div>
                 <div class="review-info">
-                    <span class="review-count">128 κριτικές στο</span>
+                    <span class="review-count">50 κριτικές στο</span>
                     <img src="../../images/google-logo.png" alt="Google" class="platform-logo">
                 </div>
             </div>
@@ -288,7 +214,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h3>Τοποθεσία</h3>
-                            <p>Λεωφόρος Ακροπόλεως 123, Αθήνα, Ελλάδα</p>
+                            <p>Σόλωνος 102, Αθήνα 106 80</p>
                         </div>
                     </div>
                     
@@ -296,7 +222,7 @@
                         <i class="fas fa-phone"></i>
                         <div>
                             <h3>Τηλέφωνο</h3>
-                            <p>+30 210 1234567</p>
+                            <p>+30 698 9417865</p>
                         </div>
                     </div>
                     
@@ -304,7 +230,7 @@
                         <i class="fas fa-clock"></i>
                         <div>
                             <h3>Ωράριο</h3>
-                            <p>Δευτέρα - Κυριακή: 11:00 - 23:00</p>
+                            <p>Δευτέρα - Κυριακή: 12:00 π.μ. - 12:00 μ.μ.</p>
                         </div>
                     </div>
                 </div>
@@ -322,7 +248,7 @@
                 <div class="social-links">
                     <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-google"></i></a>
                 </div>
                 
                 <div class="footer-nav">

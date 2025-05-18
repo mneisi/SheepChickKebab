@@ -201,8 +201,90 @@ document.addEventListener('DOMContentLoaded', function() {
 function loadMenuData() {
     // Get the current language from html lang attribute
     const currentLanguage = document.documentElement.lang || 'en';
-    
-    fetch('data/menu.json')
+    const ITEMS_PER_PAGE = 6;
+    let allItems = [];
+    let currentCategory = 'all';
+    let currentPage = 1;
+
+    // Determine correct path for menu.json
+    let menuJsonPath = 'data/menu.json';
+    if (window.location.pathname.includes('/locale/el/')) {
+        menuJsonPath = '../../data/menu.json';
+    }
+
+    function renderMenuItems() {
+        const itemsContainer = document.getElementById('menu-items');
+        if (!itemsContainer) return;
+        let filteredItems = (currentCategory === 'all')
+            ? allItems
+            : allItems.filter(item => item.category === currentCategory);
+        const start = 0;
+        const end = currentPage * ITEMS_PER_PAGE;
+        let itemsHTML = '';
+        filteredItems.slice(start, end).forEach(item => {
+            itemsHTML += `
+                <div class="menu-item" data-category="${item.category}">
+                    <div class="menu-img">
+                        <img src="images/${item.image}" alt="${item.name[currentLanguage]}">
+                    </div>
+                    <div class="menu-info">
+                        <h3>${item.name[currentLanguage]}</h3>
+                        <p>${item.description[currentLanguage]}</p>
+                        <span class="price">${item.price}</span>
+                    </div>
+                </div>
+            `;
+        });
+        itemsContainer.innerHTML = itemsHTML;
+
+        // Centered button container
+        let btnContainer = document.getElementById('menu-btn-container');
+        if (!btnContainer) {
+            btnContainer = document.createElement('div');
+            btnContainer.id = 'menu-btn-container';
+            btnContainer.style.display = 'flex';
+            btnContainer.style.justifyContent = 'center';
+            btnContainer.style.gap = '1rem';
+            btnContainer.style.margin = '2rem 0';
+            itemsContainer.parentNode.appendChild(btnContainer);
+        }
+        btnContainer.innerHTML = '';
+
+        // Load More button
+        let loadMoreBtn = document.createElement('button');
+        loadMoreBtn.id = 'load-more-btn';
+        loadMoreBtn.className = 'btn';
+        loadMoreBtn.textContent = currentLanguage === 'el' ? 'Περισσότερα' : 'Load More';
+        loadMoreBtn.onclick = function() {
+            currentPage++;
+            renderMenuItems();
+        };
+
+        // Load Less button
+        let loadLessBtn = document.createElement('button');
+        loadLessBtn.id = 'load-less-btn';
+        loadLessBtn.className = 'btn';
+        loadLessBtn.textContent = currentLanguage === 'el' ? 'Λιγότερα' : 'Load Less';
+        loadLessBtn.onclick = function() {
+            if (currentPage > 1) {
+                currentPage--;
+                renderMenuItems();
+            }
+        };
+
+        // Show/hide buttons
+        if (filteredItems.length > end) {
+            btnContainer.appendChild(loadMoreBtn);
+        }
+        if (currentPage > 1) {
+            btnContainer.appendChild(loadLessBtn);
+        }
+        if (filteredItems.length <= ITEMS_PER_PAGE && currentPage === 1) {
+            btnContainer.innerHTML = '';
+        }
+    }
+
+    fetch(menuJsonPath)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -210,11 +292,11 @@ function loadMenuData() {
             return response.json();
         })
         .then(data => {
+            allItems = data.items;
             // Populate menu categories
             const categoriesContainer = document.getElementById('menu-categories');
             if (categoriesContainer) {
                 let categoriesHTML = '';
-                
                 data.categories.forEach(category => {
                     categoriesHTML += `
                         <button class="category-btn ${category.id === 'all' ? 'active' : ''}" 
@@ -223,56 +305,25 @@ function loadMenuData() {
                         </button>
                     `;
                 });
-                
                 categoriesContainer.innerHTML = categoriesHTML;
-                
                 // Add event listeners to category buttons
                 document.querySelectorAll('.category-btn').forEach(btn => {
                     btn.addEventListener('click', function() {
                         const category = btn.getAttribute('data-category');
-                        
                         // Reset active state
                         document.querySelectorAll('.category-btn').forEach(b => {
                             b.classList.remove('active');
                         });
-                        
                         // Add active state to clicked button
                         btn.classList.add('active');
-                        
-                        // Filter menu items
-                        document.querySelectorAll('.menu-item').forEach(item => {
-                            if (category === 'all' || item.getAttribute('data-category') === category) {
-                                item.style.display = 'block';
-                            } else {
-                                item.style.display = 'none';
-                            }
-                        });
+                        // Set current category and reset page
+                        currentCategory = category;
+                        currentPage = 1;
+                        renderMenuItems();
                     });
                 });
             }
-            
-            // Populate menu items
-            const itemsContainer = document.getElementById('menu-items');
-            if (itemsContainer) {
-                let itemsHTML = '';
-                
-                data.items.forEach(item => {
-                    itemsHTML += `
-                        <div class="menu-item" data-category="${item.category}">
-                            <div class="menu-img">
-                                <img src="images/${item.image}" alt="${item.name[currentLanguage]}">
-                            </div>
-                            <div class="menu-info">
-                                <h3>${item.name[currentLanguage]}</h3>
-                                <p>${item.description[currentLanguage]}</p>
-                                <span class="price">${item.price}</span>
-                            </div>
-                        </div>
-                    `;
-                });
-                
-                itemsContainer.innerHTML = itemsHTML;
-            }
+            renderMenuItems();
         })
         .catch(error => {
             console.error('Error loading menu data:', error);
