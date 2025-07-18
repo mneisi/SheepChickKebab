@@ -8,17 +8,24 @@
       }
     },
     {
-      "id": "kebabs",
+      "id": "appetizers",
       "name": {
-        "en": "Kebabs",
-        "el": "Κεμπάπ"
+        "en": "Appetizers",
+        "el": "Appetizers"
       }
     },
     {
-      "id": "wraps",
+      "id": "salads",
       "name": {
-        "en": "Wraps",
-        "el": "Τυλιχτά"
+        "en": "Salads",
+        "el": "Salads"
+      }
+    },
+    {
+      "id": "pieces",
+      "name": {
+        "en": "Pieces",
+        "el": "Τεμάχια"
       }
     },
     {
@@ -38,17 +45,17 @@
   ],
   "items": [
     {
-      "id": "mixed-meat-kebab",
-      "category": "kebabs",
-      "image": "placeholder-kebab.jpg",
-      "price": "€12.50",
+      "id": "alfredo-french-fries",
+      "category": "appetizers",
+      "image": "alfredo-french-fries.png",
+      "price": "€6.90",
       "name": {
-        "en": "Mixed Meat Kebab",
-        "el": "Μικτό Κεμπάπ Κρέατος"
+        "en": "Alfredo french fries",
+        "el": "Alfredo french fries"
       },
       "description": {
-        "en": "Our signature dish with lamb and chicken, served with rice and salad",
-        "el": "Το χαρακτηριστικό μας πιάτο με αρνί και κοτόπουλο, σερβίρεται με ρύζι και σαλάτα"
+        "en": "Fried potatoes with mushrooms, parsley & special Alfredo",
+        "el": "Fried potatoes with mushrooms, parsley & special Alfredo"
       }
     },
     {
