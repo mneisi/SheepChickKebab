@@ -224,13 +224,9 @@ function loadMenuData() {
         filteredItems.slice(start, end).forEach(item => {
             itemsHTML += `
                 <div class="menu-item" data-category="${item.category}">
-                    <div class="menu-img">
-                        <img src="images/${item.image}" alt="${item.name[currentLanguage]}">
-                    </div>
                     <div class="menu-info">
                         <h3>${item.name[currentLanguage]}</h3>
                         <p>${item.description[currentLanguage]}</p>
-                        <span class="price">${item.price}</span>
                     </div>
                 </div>
             `;

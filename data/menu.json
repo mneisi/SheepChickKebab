@@ -8,181 +8,457 @@
       }
     },
     {
+      "id": "most-ordered",
+      "name": {
+        "en": "Most Ordered",
+        "el": "Πιο Δημοφιλή"
+      }
+    },
+    {
       "id": "appetizers",
       "name": {
         "en": "Appetizers",
-        "el": "Appetizers"
+        "el": "Ορεκτικά"
+      }
+    },
+    {
+      "id": "sheepchick-tastes",
+      "name": {
+        "en": "Sheepchick Specialties",
+        "el": "Sheepchick Γεύσεις"
       }
     },
     {
       "id": "salads",
       "name": {
         "en": "Salads",
-        "el": "Salads"
+        "el": "Σαλάτες"
       }
     },
     {
-      "id": "pieces",
+      "id": "skewers",
       "name": {
-        "en": "Pieces",
-        "el": "Τεμάχια"
+        "en": "Skewers",
+        "el": "Καλαμάκια"
       }
     },
     {
-      "id": "sides",
+      "id": "meat-wraps",
       "name": {
-        "en": "Sides",
-        "el": "Συνοδευτικά"
+        "en": "Meat Wraps",
+        "el": "Τυλιχτά Κρέας"
+      }
+    },
+    {
+      "id": "chicken-wraps",
+      "name": {
+        "en": "Chicken Wraps",
+        "el": "Τυλιχτά Κοτόπουλο"
+      }
+    },
+    {
+      "id": "mixed-wraps",
+      "name": {
+        "en": "Mixed Wraps",
+        "el": "Μίξη Τυλιχτών"
+      }
+    },
+    {
+      "id": "vegan-wraps",
+      "name": {
+        "en": "Vegan Wraps",
+        "el": "Vegan Τυλιχτά"
+      }
+    },
+    {
+      "id": "burgers",
+      "name": {
+        "en": "Burgers",
+        "el": "Μπέργκερ"
+      }
+    },
+    {
+      "id": "kebab-bowls",
+      "name": {
+        "en": "Kebab Bowls",
+        "el": "Κεμπάπ Μπολ"
       }
     },
     {
       "id": "drinks",
       "name": {
         "en": "Drinks",
-        "el": "Ποτά"
+        "el": "Αναψυκτικά"
+      }
+    },
+    {
+      "id": "beers",
+      "name": {
+        "en": "Beers",
+        "el": "Μπύρες"
       }
     }
   ],
   "items": [
     {
-      "id": "alfredo-french-fries",
-      "category": "appetizers",
-      "image": "alfredo-french-fries.png",
-      "price": "€6.90",
+      "id": "kubideh-kebab-most-ordered",
+      "category": "most-ordered",
       "name": {
-        "en": "Alfredo french fries",
-        "el": "Alfredo french fries"
+        "en": "Kubideh Kebab",
+        "el": "Kubideh Kebab"
       },
       "description": {
-        "en": "Fried potatoes with mushrooms, parsley & special Alfredo",
-        "el": "Fried potatoes with mushrooms, parsley & special Alfredo"
+        "en": "Mix of 100% pure handmade beef and lamb meat, cheddar cheese, tomato, cucumber, onion, parsley, fries, sheepchick sauce and special pita",
+        "el": "Μείγμα από 100% αγνό χειροποίητο μοσχάρι και αρνίσιο κρέας, τυρί τσένταρ, ντομάτα αγγούρι, κρεμμύδι, μαϊντανό, πατάτες τηγανητές, sheepchick σως και σπέσιαλ πίτα"
       }
     },
     {
-      "id": "lamb-kebab",
-      "category": "kebabs",
-      "image": "placeholder-kebab.jpg",
-      "price": "€13.90",
+      "id": "spicy-chicken-kebab-most-ordered",
+      "category": "most-ordered",
       "name": {
-        "en": "Lamb Kebab",
-        "el": "Κεμπάπ Αρνίσιο"
+        "en": "Spicy Chicken Kebab",
+        "el": "Πικάντικο Κεμπάπ Κοτόπουλου"
       },
       "description": {
-        "en": "Premium lamb meat, marinated and grilled to perfection",
-        "el": "Εκλεκτό αρνίσιο κρέας, μαριναρισμένο και ψημένο στην τελειότητα"
+        "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, fries and special pita",
+        "el": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
       }
     },
     {
-      "id": "chicken-wrap",
-      "category": "wraps",
-      "image": "placeholder-wrap.jpg",
-      "price": "€8.90",
+      "id": "spicy-chicken-kebab-wrap",
+      "category": "chicken-wraps",
       "name": {
-        "en": "Chicken Wrap",
-        "el": "Τυλιχτό Κοτόπουλο"
+        "en": "Spicy Chicken Kebab",
+        "el": "Spicy Chicken Kebab"
       },
       "description": {
-        "en": "Grilled chicken with veggies and our special sauce",
-        "el": "Ψητό κοτόπουλο με λαχανικά και την ειδική μας σάλτσα"
+        "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, fries and special pita",
+        "el": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως πατάτες τηγανητές και σπέσιαλ πίτα"
       }
     },
     {
-      "id": "greek-salad",
-      "category": "sides",
-      "image": "placeholder-side.jpg",
-      "price": "€7.50",
+      "id": "darbari-mix",
+      "category": "mixed-wraps",
       "name": {
-        "en": "Greek Salad",
-        "el": "Χωριάτικη Σαλάτα"
+        "en": "Darbari Mix",
+        "el": "Darbari Mix"
       },
       "description": {
-        "en": "Fresh vegetables, feta cheese, olives with olive oil",
-        "el": "Φρέσκα λαχανικά, φέτα, ελιές με ελαιόλαδο"
+        "en": "Mix of darbari kebab and saffron chicken kebab, cheddar cheese, onion, parsley, sheepchick sauce, fries and special pita",
+        "el": "Μείγμα από κεμπάπ darbari και σαφράν, kebab κοτόπουλου, τυρί τσένταρ, κρεμμύδι, μαϊντανό, sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
       }
     },
     {
-      "id": "greek-wine",
-      "category": "drinks",
-      "image": "placeholder-drink.jpg",
-      "price": "€5.50",
+      "id": "jangali-mix",
+      "category": "mixed-wraps",
       "name": {
-        "en": "Greek Wine",
-        "el": "Ελληνικό Κρασί"
+        "en": "Jangali Mix",
+        "el": "Jangali Mix"
       },
       "description": {
-        "en": "Selected local wine, perfect pairing with our kebabs",
-        "el": "Επιλεγμένο τοπικό κρασί, ιδανικό συνοδευτικό για τα κεμπάπ μας"
+        "en": "Mix of jangali chicken kebab, sour chicken kebab and green chicken kebab, onion, parsley, sheepchick sauce, fries and special pita",
+        "el": "Μείγμα jangali chicken kebab και sour chicken kebab, green chicken kebab, κρεμμύδι, μαϊντανός, sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
       }
     },
     {
-      "id": "fresh-lemonade",
-      "category": "drinks",
-      "image": "placeholder-drink.jpg",
-      "price": "€3.50",
+      "id": "sheepchick-special-mix",
+      "category": "mixed-wraps",
       "name": {
-        "en": "Fresh Lemonade",
-        "el": "Φρέσκια Λεμονάδα"
+        "en": "Sheepchick Special Mix",
+        "el": "Sheepchick Special Mix"
       },
       "description": {
-        "en": "Homemade lemonade with mint and honey",
-        "el": "Σπιτική λεμονάδα με μέντα και μέλι"
+        "en": "Mix of saffron chicken kebab and kubideh kebab, cheddar cheese, onion, parsley, sheepchick sauce, fries and special pita",
+        "el": "Μείγμα σαφράν, κοτόπουλου κεμπάπ και kubideh kebab, τυρί cheddar, κρεμμύδι, μαϊντανό, sheepchici σως, πατάτες τηγανητές και σπέσιαλ πίτα"
       }
-    },
-    {
-      "id": "beef-kebab",
-      "category": "kebabs",
-      "image": "placeholder-kebab.jpg",
-      "price": "€14.50",
-      "name": { "en": "Beef Kebab", "el": "Κεμπάπ Μοσχαρίσιο" },
-      "description": { "en": "Juicy beef kebab with spices.", "el": "Ζουμερό μοσχαρίσιο κεμπάπ με μπαχαρικά." }
-    },
-    {
-      "id": "veggie-kebab",
-      "category": "kebabs",
-      "image": "placeholder-kebab.jpg",
-      "price": "€11.00",
-      "name": { "en": "Veggie Kebab", "el": "Κεμπάπ Λαχανικών" },
-      "description": { "en": "Grilled vegetables on skewers.", "el": "Ψητά λαχανικά σε καλαμάκι." }
     },
     {
       "id": "falafel-wrap",
-      "category": "wraps",
-      "image": "placeholder-wrap.jpg",
-      "price": "€7.90",
-      "name": { "en": "Falafel Wrap", "el": "Τυλιχτό Φαλάφελ" },
-      "description": { "en": "Falafel with fresh veggies and tahini sauce.", "el": "Φαλάφελ με φρέσκα λαχανικά και σάλτσα ταχίνι." }
+      "category": "vegan-wraps",
+      "name": {
+        "en": "Falafel",
+        "el": "Φαλάφελ"
+      },
+      "description": {
+        "en": "With falafel, tomato, pickles, parsley, sheepchick sauce and special pita",
+        "el": "Με φαλάφελ, ντομάτα, πίκλες, μαϊντανός, sheepchick σως και σπέσιαλ πίτα"
+      }
     },
     {
-      "id": "halloumi-wrap",
-      "category": "wraps",
-      "image": "placeholder-wrap.jpg",
-      "price": "€8.50",
-      "name": { "en": "Halloumi Wrap", "el": "Τυλιχτό Χαλούμι" },
-      "description": { "en": "Grilled halloumi cheese with salad.", "el": "Ψητό χαλούμι με σαλάτα." }
+      "id": "chicken-burger",
+      "category": "burgers",
+      "name": {
+        "en": "Chicken Burger",
+        "el": "Chicken Burger"
+      },
+      "description": {
+        "en": "Grilled chicken, tomato, lettuce, pickles and sheepchick sauce (fries not included)",
+        "el": "Ψητό κοτόπουλο, ντομάτα, μαρούλι, πίκλες και sheepchicit σως (ΔΕΝ συνοδεύονται από πατάτες)"
+      }
     },
     {
-      "id": "fries",
-      "category": "sides",
-      "image": "placeholder-side.jpg",
-      "price": "€3.00",
-      "name": { "en": "Fries", "el": "Πατάτες Τηγανιτές" },
-      "description": { "en": "Crispy golden fries.", "el": "Τραγανές χρυσαφένιες πατάτες." }
+      "id": "sheepchick-kebab-bowl",
+      "category": "kebab-bowls",
+      "name": {
+        "en": "Sheepchick Kebab Bowl",
+        "el": "Sheepchick Kebab Bowl"
+      },
+      "description": {
+        "en": "Kubideh kebab, saffron chicken kebab, grilled tomato, onion, parsley, fries and bread",
+        "el": "Kubideh kebab, saffron chicken kebab, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί"
+      }
     },
     {
-      "id": "tzatziki",
-      "category": "sides",
-      "image": "placeholder-side.jpg",
-      "price": "€2.50",
-      "name": { "en": "Tzatziki", "el": "Τζατζίκι" },
-      "description": { "en": "Classic Greek yogurt dip.", "el": "Κλασικό ελληνικό ντιπ γιαουρτιού." }
+      "id": "shaun-sheep-kebab-bowl-2",
+      "category": "kebab-bowls",
+      "name": {
+        "en": "Shaun the Sheep Kebab Bowl",
+        "el": "Shaun the Sheep Kebab Bowl"
+      },
+      "description": {
+        "en": "Kubideh kebab, saffron chicken kebab, chenje kebab, grilled tomato, onion, parsley, fries and bread",
+        "el": "Kubideh kebab, saffron chicken kebab, chenje kebab, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί"
+      }
     },
     {
-      "id": "soda",
+      "id": "jangali-kebab-bowl",
+      "category": "kebab-bowls",
+      "name": {
+        "en": "Jangali Kebab Bowl",
+        "el": "Jangali Kebab Bowl"
+      },
+      "description": {
+        "en": "Sour chicken kebab and jangali chicken kebab, grilled tomato, onion, parsley, fries and bread",
+        "el": "Σουζινο κοτόπουλο κεμπάπ jangali κοτόπουλο κεμπάπ, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί"
+      }
+    },
+    {
+      "id": "taste-kebab-bowl",
+      "category": "kebab-bowls",
+      "name": {
+        "en": "Taste Kebab Bowl",
+        "el": "Taste Kebab Bowl"
+      },
+      "description": {
+        "en": "Spicy mushrooms, grilled halloumi, grilled sausage and saffron chicken wings, grilled tomato, onion, parsley, fries and bread",
+        "el": "Πικάντικο μανιτάρι, χαλούμι σχάρας λουκάνικο σχάρας κόμος και φτερούγες κοτόπουλου σαφράν, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί"
+      }
+    },
+    {
+      "id": "coca-cola-500ml",
       "category": "drinks",
-      "image": "placeholder-drink.jpg",
-      "price": "€2.00",
-      "name": { "en": "Soda", "el": "Αναψυκτικό" },
-      "description": { "en": "Refreshing soft drink.", "el": "Δροσιστικό αναψυκτικό." }
+      "name": {
+        "en": "Coca-Cola 0.5L",
+        "el": "Coca-Cola 0.5L"
+      },
+      "description": {
+        "en": "Classic Coca-Cola 500ml",
+        "el": "Κλασική Coca-Cola 500ml"
+      }
+    },
+    {
+      "id": "coca-cola-light-500ml",
+      "category": "drinks",
+      "name": {
+        "en": "Coca-Cola Light 0.5L",
+        "el": "Coca-Cola Light 0.5L"
+      },
+      "description": {
+        "en": "Diet Coca-Cola 500ml",
+        "el": "Coca-Cola Light 500ml"
+      }
+    },
+    {
+      "id": "coca-cola-zero-500ml",
+      "category": "drinks",
+      "name": {
+        "en": "Coca-Cola Zero 0.5L",
+        "el": "Coca-Cola Zero 0.5L"
+      },
+      "description": {
+        "en": "Coca-Cola Zero Sugar 500ml",
+        "el": "Coca-Cola Zero 500ml"
+      }
+    },
+    {
+      "id": "fanta-red-500ml",
+      "category": "drinks",
+      "name": {
+        "en": "Fanta Red 0.5L",
+        "el": "Fanta Κόκκινη 0.5L"
+      },
+      "description": {
+        "en": "Fanta Orange 500ml",
+        "el": "Fanta Κόκκινη 500ml"
+      }
+    },
+    {
+      "id": "sprite-500ml",
+      "category": "drinks",
+      "name": {
+        "en": "Sprite 0.5L",
+        "el": "Sprite 0.5L"
+      },
+      "description": {
+        "en": "Sprite lemon-lime soda 500ml",
+        "el": "Sprite λεμονάδα 500ml"
+      }
+    },
+    {
+      "id": "fanta-lemon-330ml",
+      "category": "drinks",
+      "name": {
+        "en": "Fanta Lemon 0.33L",
+        "el": "Fanta Λεμόνι 0.33L"
+      },
+      "description": {
+        "en": "Fanta Lemon 330ml",
+        "el": "Fanta Λεμόνι 330ml"
+      }
+    },
+    {
+      "id": "water-500ml",
+      "category": "drinks",
+      "name": {
+        "en": "Water 0.5L",
+        "el": "Νερό 0.5L"
+      },
+      "description": {
+        "en": "Still water 500ml",
+        "el": "Νερό 500ml"
+      }
+    },
+    {
+      "id": "coca-cola-330ml",
+      "category": "drinks",
+      "name": {
+        "en": "Coca-Cola 0.33L",
+        "el": "Coca-Cola 0.33L"
+      },
+      "description": {
+        "en": "Classic Coca-Cola 330ml",
+        "el": "Κλασική Coca-Cola 330ml"
+      }
+    },
+    {
+      "id": "coca-cola-light-330ml",
+      "category": "drinks",
+      "name": {
+        "en": "Coca-Cola Light 0.33L",
+        "el": "Coca-Cola Light 0.33L"
+      },
+      "description": {
+        "en": "Diet Coca-Cola 330ml",
+        "el": "Coca-Cola Light 330ml"
+      }
+    },
+    {
+      "id": "coca-cola-zero-330ml",
+      "category": "drinks",
+      "name": {
+        "en": "Coca-Cola Zero 0.33L",
+        "el": "Coca-Cola Zero 0.33L"
+      },
+      "description": {
+        "en": "Coca-Cola Zero Sugar 330ml",
+        "el": "Coca-Cola Zero 330ml"
+      }
+    },
+    {
+      "id": "sprite-330ml",
+      "category": "drinks",
+      "name": {
+        "en": "Sprite 0.33L",
+        "el": "Sprite 0.33L"
+      },
+      "description": {
+        "en": "Sprite lemon-lime soda 330ml",
+        "el": "Sprite λεμονάδα 330ml"
+      }
+    },
+    {
+      "id": "fanta-red-330ml",
+      "category": "drinks",
+      "name": {
+        "en": "Fanta Red 0.33L",
+        "el": "Fanta Κόκκινη 0.33L"
+      },
+      "description": {
+        "en": "Fanta Orange 330ml",
+        "el": "Fanta Κόκκινη 330ml"
+      }
+    },
+    {
+      "id": "fanta-blue-330ml",
+      "category": "drinks",
+      "name": {
+        "en": "Fanta Blue 0.33L",
+        "el": "Fanta Blue 0.33L"
+      },
+      "description": {
+        "en": "Fanta Blue 330ml",
+        "el": "Fanta Blue 330ml"
+      }
+    },
+    {
+      "id": "fanta-lemon-330ml",
+      "category": "drinks",
+      "name": {
+        "en": "Fanta Lemon 0.33L",
+        "el": "Fanta Lemon 0.33L"
+      },
+      "description": {
+        "en": "Fanta Lemon 330ml",
+        "el": "Fanta Lemon 330ml"
+      }
+    },
+    {
+      "id": "schweppes-soda-330ml",
+      "category": "drinks",
+      "name": {
+        "en": "Schweppes Soda Water 0.33L",
+        "el": "Schweppes Soda Water 0.33L"
+      },
+      "description": {
+        "en": "Schweppes Soda Water 330ml",
+        "el": "Schweppes Soda Water 330ml"
+      }
+    },
+    {
+      "id": "heineken-500ml",
+      "category": "beers",
+      "name": {
+        "en": "Heineken 0.5L",
+        "el": "Heineken 0.5L"
+      },
+      "description": {
+        "en": "Heineken beer 500ml (5% vol)",
+        "el": "Μπύρα Heineken 500ml (5% vol)"
+      }
+    },
+    {
+      "id": "alfa-500ml",
+      "category": "beers",
+      "name": {
+        "en": "Alfa 0.5L",
+        "el": "Άλφα 0.5L"
+      },
+      "description": {
+        "en": "Greek Alfa beer 500ml (5% vol)",
+        "el": "Ελληνική μπύρα Άλφα 500ml (5% vol)"
+      }
+    },
+    {
+      "id": "mamos-500ml",
+      "category": "beers",
+      "name": {
+        "en": "Mamos 0.5L",
+        "el": "Μάμος 0.5L"
+      },
+      "description": {
+        "en": "Greek Mamos beer 500ml (5% vol)",
+        "el": "Ελληνική μπύρα Μάμος 500ml (5% vol)"
+      }
     }
   ]
-} 
+}
