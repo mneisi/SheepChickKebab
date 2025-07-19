@@ -85,6 +85,13 @@
       }
     },
     {
+      "id": "sauces",
+      "name": {
+        "en": "Sauces",
+        "el": "Σος"
+      }
+    },
+    {
       "id": "drinks",
       "name": {
         "en": "Drinks",
@@ -113,11 +120,419 @@
       }
     },
     {
-      "id": "spicy-chicken-kebab-most-ordered",
+      "id": "french-fries-most-ordered",
       "category": "most-ordered",
       "name": {
+        "en": "French Fries",
+        "el": "Πατάτες Τηγανητές"
+      },
+      "description": {
+        "en": "Crispy golden french fries",
+        "el": "Τραγανές χρυσές πατάτες τηγανητές"
+      }
+    },
+    {
+      "id": "alfredo-french-fries",
+      "category": "appetizers",
+      "name": {
+        "en": "Alfredo French Fries",
+        "el": "Alfredo French Fries"
+      },
+      "description": {
+        "en": "French fries, mushrooms, special Alfredo sauce and parsley",
+        "el": "Πατάτες τηγανητές, μανιτάρια, σπέσιαλ σάλτσα Alfredo και μαϊντανός"
+      }
+    },
+    {
+      "id": "american-french-fries",
+      "category": "appetizers",
+      "name": {
+        "en": "American French Fries",
+        "el": "American French Fries"
+      },
+      "description": {
+        "en": "French fries, bacon, halloumi, mushrooms, special sauce and parsley",
+        "el": "Πατάτες τηγανητές, μπέικον, χαλούμι, μανιτάρια, σπέσιαλ σάλτσα και μαϊντανό"
+      }
+    },
+    {
+      "id": "onion-rings",
+      "category": "appetizers",
+      "name": {
+        "en": "Onion Rings",
+        "el": "Ροδέλες Κρεμμυδιού"
+      },
+      "description": {
+        "en": "Crispy golden onion rings",
+        "el": "Τραγανές χρυσές ροδέλες κρεμμυδιού"
+      }
+    },
+    {
+      "id": "tzatziki",
+      "category": "appetizers",
+      "name": {
+        "en": "Tzatziki",
+        "el": "Τζατζίκι"
+      },
+      "description": {
+        "en": "Traditional Greek yogurt sauce with cucumber and garlic",
+        "el": "Παραδοσιακή ελληνική σάλτσα γιαουρτιού με αγγούρι και σκόρδο"
+      }
+    },
+    {
+      "id": "yogurt-grated-cucumber",
+      "category": "appetizers",
+      "name": {
+        "en": "Yogurt with Grated Cucumber",
+        "el": "Γιαούρτι με Τριμμένο Αγγούρι"
+      },
+      "description": {
+        "en": "Fresh yogurt mixed with grated cucumber",
+        "el": "Φρέσκο γιαούρτι αναμεμένο με τριμμένο αγγούρι"
+      }
+    },
+    {
+      "id": "yogurt-persian-onion",
+      "category": "appetizers",
+      "name": {
+        "en": "Yogurt with Persian Onion",
+        "el": "Γιαούρτι με Περσικό Κρεμμύδι"
+      },
+      "description": {
+        "en": "Yogurt mixed with Persian style onion",
+        "el": "Γιαούρτι αναμεμένο με περσικό στυλ κρεμμύδι"
+      }
+    },
+    {
+      "id": "drip-yogurt",
+      "category": "appetizers",
+      "name": {
+        "en": "Drip Yogurt",
+        "el": "Στάγδην Γιαούρτι"
+      },
+      "description": {
+        "en": "Thick strained yogurt",
+        "el": "Παχύ στραγγισμένο γιαούρτι"
+      }
+    },
+    {
+      "id": "saffron-chicken-specialty",
+      "category": "sheepchick-tastes",
+      "name": {
+        "en": "Saffron Chicken Specialty",
+        "el": "Πικάντικη Σπάλα Κοτόπουλου"
+      },
+      "description": {
+        "en": "Tender chicken with saffron seasoning",
+        "el": "Τρυφερό κοτόπουλο με σαφράν μπαχαρικά"
+      }
+    },
+    {
+      "id": "spicy-chicken-shoulder",
+      "category": "sheepchick-tastes",
+      "name": {
+        "en": "Spicy Chicken Shoulder",
+        "el": "Μανιτάρια Σχάρας"
+      },
+      "description": {
+        "en": "Spicy marinated chicken shoulder",
+        "el": "Πικάντικος μαριναρισμένος ώμος κοτόπουλου"
+      }
+    },
+    {
+      "id": "grilled-mushrooms",
+      "category": "sheepchick-tastes",
+      "name": {
+        "en": "Grilled Mushrooms",
+        "el": "Μανιτάρια Σχάρας"
+      },
+      "description": {
+        "en": "Fresh grilled mushrooms",
+        "el": "Φρέσκα ψητά μανιτάρια"
+      }
+    },
+    {
+      "id": "spicy-mushroom",
+      "category": "sheepchick-tastes",
+      "name": {
+        "en": "Spicy Mushroom",
+        "el": "Πικάντικο Μανιτάρι"
+      },
+      "description": {
+        "en": "Grilled mushrooms with spicy seasoning",
+        "el": "Ψητά μανιτάρια με πικάντικα μπαχαρικά"
+      }
+    },
+    {
+      "id": "grilled-sausage",
+      "category": "sheepchick-tastes",
+      "name": {
+        "en": "Grilled Sausage",
+        "el": "Λουκάνικο Σχάρας"
+      },
+      "description": {
+        "en": "Traditional grilled sausage",
+        "el": "Παραδοσιακό ψητό λουκάνικο"
+      }
+    },
+    {
+      "id": "grilled-halloumi",
+      "category": "sheepchick-tastes",
+      "name": {
+        "en": "Grilled Halloumi",
+        "el": "Χαλούμι Σχάρας"
+      },
+      "description": {
+        "en": "Grilled halloumi cheese",
+        "el": "Ψητό τυρί χαλούμι"
+      }
+    },
+    {
+      "id": "greek-salad",
+      "category": "salads",
+      "name": {
+        "en": "Greek Salad",
+        "el": "Ελληνική Σαλάτα"
+      },
+      "description": {
+        "en": "With tomato, cucumber, onion, olives, feta cheese, peppers and olive oil",
+        "el": "Με ντομάτα, αγγούρι, κρεμμύδι, ελιές, φέτα, πιπεριές και ελαιόλαδο"
+      }
+    },
+    {
+      "id": "chicken-kebab-salad",
+      "category": "salads",
+      "name": {
+        "en": "Chicken Kebab Salad",
+        "el": "Chicken Kebab Salad"
+      },
+      "description": {
+        "en": "With lettuce, tomato, cucumber, onion, olives, chicken kebab and dressing",
+        "el": "Με μαρούλι, ντομάτα, αγγούρι, κρεμμύδι, ελιές, κεμπάπ κοτόπουλου και ντρέσινγκ"
+      }
+    },
+    {
+      "id": "kubideh-kebab-salad",
+      "category": "salads",
+      "name": {
+        "en": "Kubideh Kebab Salad",
+        "el": "Kubideh Kebab Salad"
+      },
+      "description": {
+        "en": "With lettuce, tomato, cucumber, onion, olives, kubideh kebab and dressing",
+        "el": "Με μαρούλι, ντομάτα, αγγούρι, κρεμμύδι, ελιές, κεμπάπ kubideh και ντρέσινγκ"
+      }
+    },
+    {
+      "id": "kubide-kebab-skewer",
+      "category": "skewers",
+      "name": {
+        "en": "Kubide Kebab",
+        "el": "Kubide Kebab"
+      },
+      "description": {
+        "en": "Grilled minced meat skewer",
+        "el": "Ψητό καλαμάκι κιμά"
+      }
+    },
+    {
+      "id": "darbari-kebab-skewer",
+      "category": "skewers",
+      "name": {
+        "en": "Darbari Kebab",
+        "el": "Darbari Kebab"
+      },
+      "description": {
+        "en": "Special darbari style kebab skewer",
+        "el": "Ειδικό καλαμάκι κεμπάπ στυλ darbari"
+      }
+    },
+    {
+      "id": "chenje-kebab-skewer",
+      "category": "skewers",
+      "name": {
+        "en": "Chenje Kebab",
+        "el": "Chenje Kebab"
+      },
+      "description": {
+        "en": "Tender chenje style kebab skewer",
+        "el": "Τρυφερό καλαμάκι κεμπάπ στυλ chenje"
+      }
+    },
+    {
+      "id": "jangali-chicken-kebab-skewer",
+      "category": "skewers",
+      "name": {
+        "en": "Jangali Chicken Kebab",
+        "el": "Jangali Chicken Kebab"
+      },
+      "description": {
+        "en": "Wild style chicken kebab skewer",
+        "el": "Καλαμάκι κοτόπουλου άγριο στυλ"
+      }
+    },
+    {
+      "id": "green-chicken-kebab-skewer",
+      "category": "skewers",
+      "name": {
+        "en": "Green Chicken Kebab",
+        "el": "Green Chicken Kebab"
+      },
+      "description": {
+        "en": "Herb-seasoned green chicken kebab skewer",
+        "el": "Καλαμάκι κοτόπουλου με πράσινα μυρωδικά"
+      }
+    },
+    {
+      "id": "yogurt-chicken-kebab-skewer",
+      "category": "skewers",
+      "name": {
+        "en": "Yogurt Chicken Kebab",
+        "el": "Yogurt Chicken Kebab"
+      },
+      "description": {
+        "en": "Yogurt-marinated chicken kebab skewer",
+        "el": "Καλαμάκι κοτόπουλου μαριναρισμένο με γιαούρτι"
+      }
+    },
+    {
+      "id": "sour-chicken-kebab-skewer",
+      "category": "skewers",
+      "name": {
+        "en": "Sour Chicken Kebab",
+        "el": "Sour Chicken Kebab"
+      },
+      "description": {
+        "en": "Tangy sour chicken kebab skewer",
+        "el": "Καλαμάκι κοτόπουλου ξινό"
+      }
+    },
+    {
+      "id": "spicy-chicken-kebab-skewer",
+      "category": "skewers",
+      "name": {
         "en": "Spicy Chicken Kebab",
-        "el": "Πικάντικο Κεμπάπ Κοτόπουλου"
+        "el": "Spicy Chicken Kebab"
+      },
+      "description": {
+        "en": "Hot and spicy chicken kebab skewer",
+        "el": "Καυτό και πικάντικο καλαμάκι κοτόπουλου"
+      }
+    },
+    {
+      "id": "saffron-chicken-kebab-skewer",
+      "category": "skewers",
+      "name": {
+        "en": "Saffron Chicken Kebab",
+        "el": "Saffron Chicken Kebab"
+      },
+      "description": {
+        "en": "Saffron-infused chicken kebab skewer",
+        "el": "Καλαμάκι κοτόπουλου με σαφράν"
+      }
+    },
+    {
+      "id": "kubideh-kebab-wrap",
+      "category": "meat-wraps",
+      "name": {
+        "en": "Kubideh Kebab",
+        "el": "Kubideh Kebab"
+      },
+      "description": {
+        "en": "Blend of 100% pure artisan beef and lamb, cheddar cheese, tomato, cucumber, onion, parsley, french fries, sheepchick sauce and special pita",
+        "el": "Μείγμα από 100% αγνό χειροποίητο μοσχάρι και αρνίσιο κρέας, τυρί τσένταρ, ντομάτα αγγούρι, κρεμμύδι, μαϊντανό, πατάτες τηγανητές, sheepchick σως και σπέσιαλ πίτα"
+      }
+    },
+    {
+      "id": "darbari-kebab-wrap",
+      "category": "meat-wraps",
+      "name": {
+        "en": "Darbari Kebab",
+        "el": "Darbari Kebab"
+      },
+      "description": {
+        "en": "Blend of 100% pure artisan beef and lamb, cheddar cheese, tomato, cucumber, onion, parsley, sheepchick sauce, fries and special pita",
+        "el": "Μείγμα από 100% αγνό χειροποίητο μοσχάρι και αρνίσιο κρέας, τυρί τσένταρ, ντομάτα αγγούρι, κρεμμύδι, μαϊντανό, sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
+      }
+    },
+    {
+      "id": "negini-kebab-wrap",
+      "category": "meat-wraps",
+      "name": {
+        "en": "Negini Kebab",
+        "el": "Negini Kebab"
+      },
+      "description": {
+        "en": "Blend of 100% pure artisanal beef and lamb with a few pieces of meat, cheddar cheese, tomato, cucumber, onion, parsley, fries and special pita",
+        "el": "Μείγμα από 100% αγνό χειροποίητο μοσχάρι και αρνίσιο κρέας με λίγα κομμάτια κρέας, τυρί τσένταρ, ντομάτα αγγούρι, κρεμμύδι, μαϊντανό, πατάτες τηγανητές και σπέσιαλ πίτα"
+      }
+    },
+    {
+      "id": "chenje-kebab-wrap",
+      "category": "meat-wraps",
+      "name": {
+        "en": "Chenje Kebab",
+        "el": "Chenje Kebab"
+      },
+      "description": {
+        "en": "Beef fillet, lamb fat, cheddar cheese, tomato, cucumber, onion, parsley, sheepchick sauce, fries and special pita",
+        "el": "Μοσχαρίσιο φιλέτο αρνίσιο λίπος, τυρί τσένταρ, ντομάτα αγγούρι, κρεμμύδι, μαϊντανό, sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
+      }
+    },
+    {
+      "id": "saffron-chicken-kebab-wrap",
+      "category": "chicken-wraps",
+      "name": {
+        "en": "Saffron Chicken Kebab",
+        "el": "Saffron Chicken Kebab"
+      },
+      "description": {
+        "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, fries and special pita",
+        "el": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
+      }
+    },
+    {
+      "id": "jangali-chicken-kebab-wrap",
+      "category": "chicken-wraps",
+      "name": {
+        "en": "Jangali Chicken Kebab",
+        "el": "Jangali Chicken Kebab"
+      },
+      "description": {
+        "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, fries and special pita",
+        "el": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
+      }
+    },
+    {
+      "id": "green-chicken-kebab-wrap",
+      "category": "chicken-wraps",
+      "name": {
+        "en": "Green Chicken Kebab",
+        "el": "Green Chicken Kebab"
+      },
+      "description": {
+        "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, fries and special pita",
+        "el": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
+      }
+    },
+    {
+      "id": "sour-chicken-kebab-wrap",
+      "category": "chicken-wraps",
+      "name": {
+        "en": "Sour Chicken Kebab",
+        "el": "Sour Chicken Kebab"
+      },
+      "description": {
+        "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, fries and special pita",
+        "el": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
+      }
+    },
+    {
+      "id": "yogurt-chicken-kebab-wrap",
+      "category": "chicken-wraps",
+      "name": {
+        "en": "Yogurt Chicken Kebab",
+        "el": "Yogurt Chicken Kebab"
       },
       "description": {
         "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, fries and special pita",
@@ -134,6 +549,18 @@
       "description": {
         "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, fries and special pita",
         "el": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως πατάτες τηγανητές και σπέσιαλ πίτα"
+      }
+    },
+    {
+      "id": "chicken-mix",
+      "category": "mixed-wraps",
+      "name": {
+        "en": "Chicken Mix",
+        "el": "Chicken Mix"
+      },
+      "description": {
+        "en": "Saffron mix, chicken kebab and yogurt, chicken kebab and spicy chicken kebab, cheddar cheese, onion, parsley, sheepchick sauce, fries and special pita",
+        "el": "Μείγμα σαφράν, κοτόπουλου kebab και γιαουρτιού, κεμπάπ κοτόπουλου και πικάντικο κεμπάπ κοτόπουλου, τυρί τσένταρ, κρεμμύδι, μαϊντανό, sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
       }
     },
     {
@@ -169,7 +596,7 @@
       },
       "description": {
         "en": "Mix of saffron chicken kebab and kubideh kebab, cheddar cheese, onion, parsley, sheepchick sauce, fries and special pita",
-        "el": "Μείγμα σαφράν, κοτόπουλου κεμπάπ και kubideh kebab, τυρί cheddar, κρεμμύδι, μαϊντανό, sheepchici σως, πατάτες τηγανητές και σπέσιαλ πίτα"
+        "el": "Μείγμα σαφράν, κοτόπουλου κεμπάπ και kubideh kebab, τυρί cheddar, κρεμμύδι, μαϊντανό, sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
       }
     },
     {
@@ -193,7 +620,7 @@
       },
       "description": {
         "en": "Grilled chicken, tomato, lettuce, pickles and sheepchick sauce (fries not included)",
-        "el": "Ψητό κοτόπουλο, ντομάτα, μαρούλι, πίκλες και sheepchicit σως (ΔΕΝ συνοδεύονται από πατάτες)"
+        "el": "Ψητό κοτόπουλο, ντομάτα, μαρούλι, πίκλες και sheepchick σως (ΔΕΝ συνοδεύονται από πατάτες)"
       }
     },
     {
@@ -209,7 +636,7 @@
       }
     },
     {
-      "id": "shaun-sheep-kebab-bowl-2",
+      "id": "shaun-sheep-kebab-bowl",
       "category": "kebab-bowls",
       "name": {
         "en": "Shaun the Sheep Kebab Bowl",
@@ -218,6 +645,18 @@
       "description": {
         "en": "Kubideh kebab, saffron chicken kebab, chenje kebab, grilled tomato, onion, parsley, fries and bread",
         "el": "Kubideh kebab, saffron chicken kebab, chenje kebab, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί"
+      }
+    },
+    {
+      "id": "chicken-kebab-bowl",
+      "category": "kebab-bowls",
+      "name": {
+        "en": "Chicken Kebab Bowl",
+        "el": "Chicken Kebab Bowl"
+      },
+      "description": {
+        "en": "Saffron Chicken Kebab, Yogurt Chicken Kebab, grilled tomato, onion, parsley, fries and bread",
+        "el": "Κεμπάπ κοτόπουλου σαφράν, κεμπάπ κοτόπουλου γιαουρτιού, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί"
       }
     },
     {
@@ -242,6 +681,102 @@
       "description": {
         "en": "Spicy mushrooms, grilled halloumi, grilled sausage and saffron chicken wings, grilled tomato, onion, parsley, fries and bread",
         "el": "Πικάντικο μανιτάρι, χαλούμι σχάρας λουκάνικο σχάρας κόμος και φτερούγες κοτόπουλου σαφράν, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί"
+      }
+    },
+    {
+      "id": "sheepchick-special-sauce",
+      "category": "sauces",
+      "name": {
+        "en": "Sheepchick Special Sauce",
+        "el": "Sheepchick Special Sauce"
+      },
+      "description": {
+        "en": "Our signature special sauce",
+        "el": "Η υπογραφή μας ειδική σάλτσα"
+      }
+    },
+    {
+      "id": "sheepchick-special-spicy-sauce",
+      "category": "sauces",
+      "name": {
+        "en": "Sheepchick Special Spicy Sauce",
+        "el": "Sheepchick Special Spicy Sauce"
+      },
+      "description": {
+        "en": "Our signature spicy sauce",
+        "el": "Η υπογραφή μας πικάντικη σάλτσα"
+      }
+    },
+    {
+      "id": "ketchup",
+      "category": "sauces",
+      "name": {
+        "en": "Ketchup",
+        "el": "Κέτσαπ"
+      },
+      "description": {
+        "en": "Classic tomato ketchup",
+        "el": "Κλασικό κέτσαπ ντομάτας"
+      }
+    },
+    {
+      "id": "mayo",
+      "category": "sauces",
+      "name": {
+        "en": "Mayo",
+        "el": "Μαγιονέζα"
+      },
+      "description": {
+        "en": "Creamy mayonnaise",
+        "el": "Κρεμώδης μαγιονέζα"
+      }
+    },
+    {
+      "id": "bbq",
+      "category": "sauces",
+      "name": {
+        "en": "BBQ",
+        "el": "BBQ"
+      },
+      "description": {
+        "en": "Smoky barbecue sauce",
+        "el": "Καπνιστή σάλτσα μπάρμπεκιου"
+      }
+    },
+    {
+      "id": "mustard",
+      "category": "sauces",
+      "name": {
+        "en": "Mustard",
+        "el": "Μουστάρδα"
+      },
+      "description": {
+        "en": "Classic yellow mustard",
+        "el": "Κλασική κίτρινη μουστάρδα"
+      }
+    },
+    {
+      "id": "sweet-chili-sauce",
+      "category": "sauces",
+      "name": {
+        "en": "Sweet Chili Sauce",
+        "el": "Σως Γλυκό Τσίλι"
+      },
+      "description": {
+        "en": "Sweet and spicy chili sauce",
+        "el": "Γλυκιά και πικάντικη σάλτσα τσίλι"
+      }
+    },
+    {
+      "id": "cheddar-sauce",
+      "category": "sauces",
+      "name": {
+        "en": "Cheddar Sauce",
+        "el": "Τσένταρ Σως"
+      },
+      "description": {
+        "en": "Rich cheddar cheese sauce",
+        "el": "Πλούσια σάλτσα τυριού τσένταρ"
       }
     },
     {
@@ -281,18 +816,6 @@
       }
     },
     {
-      "id": "fanta-red-500ml",
-      "category": "drinks",
-      "name": {
-        "en": "Fanta Red 0.5L",
-        "el": "Fanta Κόκκινη 0.5L"
-      },
-      "description": {
-        "en": "Fanta Orange 500ml",
-        "el": "Fanta Κόκκινη 500ml"
-      }
-    },
-    {
       "id": "sprite-500ml",
       "category": "drinks",
       "name": {
@@ -302,30 +825,6 @@
       "description": {
         "en": "Sprite lemon-lime soda 500ml",
         "el": "Sprite λεμονάδα 500ml"
-      }
-    },
-    {
-      "id": "fanta-lemon-330ml",
-      "category": "drinks",
-      "name": {
-        "en": "Fanta Lemon 0.33L",
-        "el": "Fanta Λεμόνι 0.33L"
-      },
-      "description": {
-        "en": "Fanta Lemon 330ml",
-        "el": "Fanta Λεμόνι 330ml"
-      }
-    },
-    {
-      "id": "water-500ml",
-      "category": "drinks",
-      "name": {
-        "en": "Water 0.5L",
-        "el": "Νερό 0.5L"
-      },
-      "description": {
-        "en": "Still water 500ml",
-        "el": "Νερό 500ml"
       }
     },
     {
@@ -405,11 +904,11 @@
       "category": "drinks",
       "name": {
         "en": "Fanta Lemon 0.33L",
-        "el": "Fanta Lemon 0.33L"
+        "el": "Fanta Λεμόνι 0.33L"
       },
       "description": {
         "en": "Fanta Lemon 330ml",
-        "el": "Fanta Lemon 330ml"
+        "el": "Fanta Λεμόνι 330ml"
       }
     },
     {
@@ -422,6 +921,18 @@
       "description": {
         "en": "Schweppes Soda Water 330ml",
         "el": "Schweppes Soda Water 330ml"
+      }
+    },
+    {
+      "id": "water-500ml",
+      "category": "drinks",
+      "name": {
+        "en": "Water 0.5L",
+        "el": "Νερό 0.5L"
+      },
+      "description": {
+        "en": "Still water 500ml",
+        "el": "Νερό 500ml"
       }
     },
     {
