@@ -64,6 +64,13 @@
       }
     },
     {
+      "id": "vegan-wraps",
+      "name": {
+        "en": "Vegan Wraps",
+        "el": "Vegan Τυλιχτά"
+      }
+    },
+    {
       "id": "kebab-bowls",
       "name": {
         "en": "Kebab Bowls",
@@ -706,14 +713,14 @@
       }
     },
     {
-      "id": "φαλάφελ-meatwraps",
-      "category": "meat-wraps",
+      "id": "falafel-wrap",
+      "category": "vegan-wraps",
       "name": {
-        "en": "Φαλάφελ",
+        "en": "Falafel",
         "el": "Φαλάφελ"
       },
       "description": {
-        "en": "Με φαλάφελ, ντομάτα, πίκλες, μαϊντανός, sheepchick σως και σπέσιαλ πίτα",
+        "en": "With falafel, tomato, pickles, parsley, sheepchick sauce and special pita",
         "el": "Με φαλάφελ, ντομάτα, πίκλες, μαϊντανός, sheepchick σως και σπέσιαλ πίτα"
       }
     },
