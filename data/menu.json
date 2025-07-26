@@ -600,7 +600,7 @@
         "el": "Saffron Chicken Kebab"
       },
       "description": {
-        "en": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα",
+        "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, french fries and special pita",
         "el": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
       }
     },
@@ -624,7 +624,7 @@
         "el": "Green Chicken Kebab"
       },
       "description": {
-        "en": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα",
+        "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, french fries and special pita",
         "el": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
       }
     },
@@ -636,7 +636,7 @@
         "el": "Sour Chicken Kebab"
       },
       "description": {
-        "en": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα",
+        "en": "Fresh chicken fillet with our secret recipe, cheddar cheese, onion, parsley, pickles, Sheepchick sauce, french fries and special pita",
         "el": "Φρέσκο φιλέτο κοτόπουλο με τη μυστική συνταγή μας, τυρί τσένταρ, κρεμμύδι, μαϊντανός, πίκλες, Sheepchick σως, πατάτες τηγανητές και σπέσιαλ πίτα"
       }
     },
@@ -708,7 +708,7 @@
         "el": "Sheepchick Special Mix"
       },
       "description": {
-        "en": "Μείγμα σαφράν, κοτόπουλου κεμπάπ και kubideh kebab, τυρί cheddar, κρεμμύδι, μαϊντανό, sheepchici σως, πατάτες τηγανητές και σπέσιαλ πίτα",
+        "en": "Saffron mix, chicken kebab and kubideh kebab, cheddar cheese, onion, parsley, sheepchici sauce, french fries and special pita",
         "el": "Μείγμα σαφράν, κοτόπουλου κεμπάπ και kubideh kebab, τυρί cheddar, κρεμμύδι, μαϊντανό, sheepchici σως, πατάτες τηγανητές και σπέσιαλ πίτα"
       }
     },
@@ -768,7 +768,7 @@
         "el": "Jangali Kebab Bowl"
       },
       "description": {
-        "en": "Σουζινο κοτόπουλο κεμπάπ jangali κοτόπουλο κεμπάπ, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί",
+        "en": "Suzi chicken kebab jangali chicken kebab, grilled tomato, onion, parsley, french fries and bread",
         "el": "Σουζινο κοτόπουλο κεμπάπ jangali κοτόπουλο κεμπάπ, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί"
       }
     },
@@ -780,7 +780,7 @@
         "el": "Taste Kebab Bowl"
       },
       "description": {
-        "en": "Πικάντικο μανιτάρι, χαλούμι σχάρας λουκάνικο σχάρας κόμος και φτερούγες κοτόπουλου σαφράν, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί",
+        "en": "Spicy mushroom, grilled halloumi, grilled sausage, komos and saffron chicken wings, roasted tomato, onion, parsley, french fries and bread",
         "el": "Πικάντικο μανιτάρι, χαλούμι σχάρας λουκάνικο σχάρας κόμος και φτερούγες κοτόπουλου σαφράν, ψητή ντομάτα, κρεμμύδι, μαϊντανός, πατάτες τηγανητές και ψωμί"
       }
     },
@@ -848,7 +848,7 @@
       "id": "μουστάρδα-sauces",
       "category": "sauces",
       "name": {
-        "en": "Μουστάρδα",
+        "en": "Mustard",
         "el": "Μουστάρδα"
       },
       "description": {
@@ -860,7 +860,7 @@
       "id": "σως-γλυκό-τσίλι-sauces",
       "category": "sauces",
       "name": {
-        "en": "Σως Γλυκό Τσίλι",
+        "en": "Sweet Chili Sauce",
         "el": "Σως Γλυκό Τσίλι"
       },
       "description": {
@@ -872,7 +872,7 @@
       "id": "τσένταρ-σως-sauces",
       "category": "sauces",
       "name": {
-        "en": "Τσένταρ Σως",
+        "en": "Cheddar Sauce",
         "el": "Τσένταρ Σως"
       },
       "description": {
