@@ -312,7 +312,7 @@ nav ul li a.active::after {
 
 /* Hero Section */
 .hero {
-    background: url('../images/hero-bg.jpg');
+    background: url('../images/hero-bg2.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
