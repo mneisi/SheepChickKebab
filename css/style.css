@@ -959,6 +959,9 @@ footer {
     .hero {
         padding: 150px 0;
         background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     
     .hero h1 {
